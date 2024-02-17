@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- metadatos -->
+      <meta name="author" content="Richard Andres Montero Ogando">
+      <meta name="description" content="Portafolio de desarrollo web de Richard Montero">
+      <meta name="keywords" content="HTML, CSS, JavaScript, C#, ASP.NET">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <!-- favicon -->
+      <link rel="icon" type="img/png" href="imagenes/favicon-32x32.png">
+
+      <!-- fuentes -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+      <!-- Titulo -->
+      <title>Richard Montero|Portafolio</title>
+  </head>
+  <body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler"> <!--permite ver las opciones en dispositivos pequeños-->
+          <a class="navbar-brand" href="#">
+            <!-- cambiar icono -->
+            <img src="imagenes/favicon-32x32.png" width="50" alt="logo de la pagina web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador" src="imagenes/desarrollador-ejemplo.svg" alt="Foto de Richard Montero">
+        <h1>Hola, soy Richard Montero</h1>
+        <h2>Desarrollo sitios web y aplicaciones de escritorio</h2>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid"src="imagenes/hero-inferior.svg" alt="monitor, laptop y logos de html, css, JavaScript y react. ">
+        </div>
+      </div>
+    </section>
+
+    <!-- sobre mi -->
+    <section id="sobre-mi" class="sobre-mi sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Conoce a Richard Montero</h2>
+        <p class="seccion-texto">¡Hola! mi nombre Richard Andres Montero Ogando, Soy un joven apasionado programador y desarrollo de software. Mi enfoque se centra en la creación de soluciones eficientes y robustas para los desafíos tecnológicos. Con habilidades sólidas en desarrollo web en lenguajes como JavaScript, C# y Java, bueno utilizando HTML, CSS, SQL Server y el framework de ASP.NET con un poco de experiencia en Java</p>
+      </div>
+    </section>
+
+    <!-- experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Tengo habilidad el desarrollo y mantenimiento de aplicaciones web con HTML, CSS, JavaScript y ASP.NET. Enfoque en crear interfaces atractivas y funcionales, mejorando la interactividad con JavaScript.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">ASP.NET</span>
+            </div>
+          </div>
+
+          <!-- articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo de Formularios</p>
+            <p>He demostrado habilidades sólidas en el diseño y desarrollo de formularios, aprovechando las características avanzadas de C# y Java para mejorar la interactividad y la experiencia del usuario. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">C#</span>
+              <span class="badge text-bg-primary">Java</span>
+            </div>
+          </div>
+          <!-- estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Soy graduado de Tecnico en informatica en el Politecnico Jose Maria Velaz (JOMAVE) donde aprendi los conceptos de la programacion y actualmente soy estudiante del Instituto Tecnologico de las Americas (ITLA).</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">ITLA</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Desarrollo Formularios</span>
+              <span class="badge text-bg-primary">JOMAVE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">Estos son uno de los proyectos que he creado recientemente...</h3>
+      <!-- galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto 1.png" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Morrivs/colores-aleatorios" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/rgb.png" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Morrivs/input-color-rgb" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/tareas.png" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Morrivs/Lista-de-Tareas" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/cronometro.png" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Morrivs/cronometro" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto 1.png" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-light">
+        Ver mas proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container rectangulo text-center d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame para iniciar tu proyecto de desarrollo web y hare que tu vision se vuelva realidad
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:Rmontero1235@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pie de pagina -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo del Portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap justify-content-center align-items-center">
+        <a href="https://twitter.com/morrivs" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://github.com/Morrivs?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/richard-andrés-montero-ogando-bb7287285/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/richard26013/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:rmontero1235@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Richard Montero (2024) &#169;</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
